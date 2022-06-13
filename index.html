@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagenes con API REST</title>
+</head>
+<body>
+  <h3>Imagenes de gatos random</h3>
+  
+  <span id="error"></span>
+
+  <section id="randomCats">
+    <h2>Random Cats</h2>
+    
+    <article>
+      <img id="img1" width="150" alt="Random picture">
+      <button id='but1'>
+        Guardar foto en Favoritos
+      </button>
+    </article>
+
+    <article>
+      <img id="img2" width="150" alt="Random picture"> 
+      <button id='but2'>
+        Guardar foto en Favoritos
+      </button>
+    </article>
+
+  <section id="favoritesCats">
+    <h2>Favorites Cats</h2>
+    
+    <article>
+      <img id="img3" width="150" alt="Random picture">
+      <button>Sacar foto de Favoritos</button></br>
+    </article>
+
+    <button onclick="loadRandomCats()">Quiero ver mas gatos</button>
+
+  </section>
+   
+
+
+  <script src="./main.js" ></script>
+</body>
+</html>
