@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  background-color: #faebeb;
+}
+
+p {
+  color: #232830;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  font-weight: 500;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  margin:25px
+}
+h2{
+  text-align: center;
+  margin: 20px;
+  color: #4f4fa2;
+}
+p,
+a {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+#uploadingCats{
+  
+  justify-content: center;
+  margin-bottom: 15px;
+}
+#but1, #but2{
+/*   display: flex;
+  font-size: 14px;
+  justify-content: center; */
+  margin-inline:auto;
+} 
+#uploadingForm{
+  display: flex;
+  justify-content: center;
+  margin: 31px 0 30px 0;
+}
+#favoritesCats article{
+  /* display: flex; */
+ /*  justify-content: center;
+  margin:25px */
+  display: grid;
+  justify-content: center;
+
+}
+button{
+  font-size: 14px;
+  padding: 5px;
+  display: flex;
+  color: #4f4fa2;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: 1px solid red;
+  border-radius: 3px;
+  background-color: #ffc8ab;
+  width: 170px;
+  justify-self: center;
+  justify-content: center;
+} 
+button:hover{
+  color: #8e4ba5;
+  border:1px solid #3700ff;
+}
+button:active{
+  background-color: #ff9862;
+}
+input{
+  font-size: 12px;
+  padding: 3px;
+  color: #af23cd;
+  font-weight: bold;
+  margin-right: 20px;
+}
+article img{
+  justify-self: center;
+  width: 200px;
+  margin-bottom: 15px;
+
+}
