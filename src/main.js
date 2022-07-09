@@ -12,7 +12,7 @@ async function loadRandomCats(){
   console.log("random cats")
   console.log(data) 
  
-
+    // si res.status NO ES 200, mostramos el error
 
  if (res.status !== 200) {
   spanError.innerHTML = "Hubo un error" + res.status;
@@ -45,7 +45,7 @@ async function loadFavoritesCats(){
     const section = document.getElementById('favoritesCats')
     section.innerHTML = "";
     const h2 = document.createElement('h2');
-    const h2Text = document.createTextNode('Michis favoritos');
+    const h2Text = document.createTextNode('Tus fotos favoritas');
     h2.appendChild(h2Text);
     section.appendChild(h2);
 
@@ -134,7 +134,7 @@ async function uploadPhotoCat(){
     spanError.innerHTML = "Hubo un error: " + res.status + data.message;
     console.log({data})
   } else {
-    console.log('Foto de michi subida :)')
+    console.log('Foto de gato subida :)')
     console.log({data})
     console.log(data.url)
     saveFavoritesCats(data.id);
