@@ -70,8 +70,6 @@ async function loadFavoritesCats(){
 
 //--- save favorites (usando POST) ----
 
-// cuando llamamos a fetch y queremos especificarle un metodo distinto al por defeecto q es get , en este caso queremos un POST  tenemos que especificar con un argumento que sea el 2do argumento de nuestra funcion en este caso puede ser un obj, y este obj puede tener la info q tengamos q enviarle a nuesta API , el metodo q en este caso q es de tipo POST 
-
 async function saveFavoritesCats(id){
   const res = await fetch(API_URL_FAVORITES,{
     method: 'POST',
