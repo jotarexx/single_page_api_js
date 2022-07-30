@@ -21,7 +21,7 @@ async function loadRandomCats(){
   const img2 = document.getElementById('img2');
   const but1 = document.getElementById('but1');
   const but2 = document.getElementById('but2');
-    // le cambiamos el atributo src para ponerles la url q nos esta poniendo la API
+    
   img1.src = data[0].url;
   img2.src = data[1].url;
 
