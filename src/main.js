@@ -8,7 +8,7 @@ const spanError = document.getElementById('error')
 
 async function loadRandomCats(){
   const res = await fetch(API_URL); // llamamos a la API, el RES nos dice de cómo quedó nuestra solicitud, antes de darnos los datos
-  const data = await res.json(); // lo convertimos para q js lo entienda con json
+  const data = await res.json(); 
   console.log("random cats")
   console.log(data) 
  
