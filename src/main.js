@@ -12,8 +12,6 @@ async function loadRandomCats(){
   console.log("random cats")
   console.log(data) 
  
-
-
  if (res.status !== 200) {
   spanError.innerHTML = "Hubo un error" + res.status;
  } else {
