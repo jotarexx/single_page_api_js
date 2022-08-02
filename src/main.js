@@ -7,7 +7,7 @@ const API_URL_UPLOAD = 'https://api.thecatapi.com/v1/images/upload'
 const spanError = document.getElementById('error')
 
 async function loadRandomCats(){
-  const res = await fetch(API_URL); // llamamos a la API, el RES nos dice de cómo quedó nuestra solicitud, antes de darnos los datos
+  const res = await fetch(API_URL); 
   const data = await res.json(); 
   console.log("random cats")
   console.log(data) 
