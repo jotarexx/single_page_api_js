@@ -46,7 +46,7 @@ async function loadFavoritesCats(){
     h2.appendChild(h2Text);
     section.appendChild(h2);
 
-    data.forEach(cat => { // CREAMOS NODOS HTML
+    data.forEach(cat => { 
       
       const article = document.createElement('article');
       const img = document.createElement('img');
