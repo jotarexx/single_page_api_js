@@ -50,7 +50,7 @@ async function loadFavoritesCats(){
       
       const article = document.createElement('article');
       const img = document.createElement('img');
-      const button = document.createElement('button'); // funcion crear elemento
+      const button = document.createElement('button'); 
       const buttonText = document.createTextNode('Sacar foto de Favoritos'); // funcion crear texto para nodos HTML
       
       img.src = cat.image.url
