@@ -65,8 +65,6 @@ async function loadFavoritesCats(){
   }
 }
 
-//--- save favorites (usando POST) ----
-
 async function saveFavoritesCats(id){
   const res = await fetch(API_URL_FAVORITES,{
     method: 'POST',
