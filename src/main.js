@@ -134,8 +134,6 @@ async function uploadPhotoCat(){
   }
 }
 
-
-
 loadRandomCats();
 loadFavoritesCats();
  
