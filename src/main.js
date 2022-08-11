@@ -29,7 +29,6 @@ async function loadRandomCats(){
 }
 loadRandomCats();
 
-
 async function loadFavoritesCats(){
   const res = await fetch(API_URL_FAVORITES);  
   const data = await res.json();  
