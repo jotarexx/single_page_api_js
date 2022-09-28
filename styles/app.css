@@ -58,8 +58,7 @@ body {
   margin-bottom: 15px;
 }
 #but1, #but2{
-/*   display: flex;
-   */
+
   margin-inline:auto;
 } 
 #uploadingForm{
